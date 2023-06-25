@@ -5,8 +5,9 @@ const nextConfig = {
     styledComponents: true,
   },
   env: {
-    // MONGODB_URI:
-    //   "mongodb+srv://ecommerce:flip215272@ecommerce.fccpr22.mongodb.net",
+    MONGODB_URI:
+      "mongodb+srv://ecommerce:flip215272@ecommerce.fccpr22.mongodb.net",
+    APP_ENV: "development",
   },
 };
 
