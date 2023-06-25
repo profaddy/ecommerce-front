@@ -4,6 +4,10 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
-}
+  env: {
+    // MONGODB_URI:
+    //   "mongodb+srv://ecommerce:flip215272@ecommerce.fccpr22.mongodb.net",
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
